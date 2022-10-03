@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  background-color: #272d34;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar {
+  width: 100%;
+	padding: 0px;
+  display: flex;
+  align-items: center; 
+justify-content: space-between;
+  background-color: #1b1b1b;
+}
+
+.navbar > div > img {
+  padding: 25px;
+  
+}
+
+.navbar > div > h3 {
+  color:#61DAFB;
+  margin: auto;
+  font-weight: 700px;
+  font-size: 22px;
+
+}
+
+.navbar > h5 {
+  color: white;
+  margin-right: 5px;
+  font-weight: 400px;
+}
+
+.navbar > div {
+  display: flex;
+}
+
+
+.main--content {
+ padding: 5px 5px 0px 15px;
+ background-image: url(../public/react-icon-large.png);
+ /* this is important */
+ background-repeat: no-repeat;
+ background-position-x: right;
+ background-position-y: 70%;
+
+} 
+
+
+.main--content >h1{
+  color: white;
+  letter-spacing: -0.05em;
+  font-size: 39px;
+}
+
+.main--content > ul > li{
+  color: white;
+  padding-block: 5px;
+  max-width: 400px;
+
+}
+.main--content > ul > li::marker {
+ color:#61DAFB;
+ font-size:1.6rem;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
